@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-size: 10.5px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+@media only screen and (min-width: 320px) {
+    body{
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width: 750px) {
+    body{
+        font-size: 13px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    body{
+        font-size: 13.5px;
+    }
+}
+
+i, h1, h2, p, button, div, input{
+    /* transition: .5s; */
+}
