@@ -866,6 +866,10 @@ video {
   font-size: 1.1em;
 }
 
+.text-\[1\.05em\] {
+  font-size: 1.05em;
+}
+
 .font-\[600\] {
   font-weight: 600;
 }
