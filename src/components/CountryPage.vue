@@ -12,16 +12,16 @@
                 <h1 class="font-[600] text-[2.1em] md:text-[2.3em] mb-[20px]">{{country_detils.name.common}}</h1>
                 <div class="w-full grid grid-cols-[1fr] gap-[30px] md:grid-cols-[1fr_1fr] mb-[30px]">
                     <div class="w-full dark:text-white">
-                        <p class="text-[1.2em] md:text-[1.05em] font-[700] mb-[10px] md:mb-[20px]">{{country_detils.name.nativeName !== undefined? 'Native' : 'Official'}} Name: <span class="font-[400]">{{country_detils.name.nativeName !== undefined? Object.values(country_detils.name.nativeName)[0].common : country_detils.name.official}}</span></p>
-                        <p class="text-[1.2em] md:text-[1.05em] font-[700] mb-[10px] md:mb-[20px]">population: <span class="font-[400]">{{country_detils.population.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1.')}}</span></p>
-                        <p class="text-[1.2em] md:text-[1.05em] font-[700] mb-[10px] md:mb-[20px]">Region: <span class="font-[400]">{{country_detils.region}}</span></p>
-                        <p class="text-[1.2em] md:text-[1.05em] font-[700] mb-[10px] md:mb-[20px]">Sub Region: <span class="font-[400]">{{country_detils.subregion}}</span></p>                        
-                        <p class="text-[1.2em] md:text-[1.05em] font-[700] mb-[10px] md:mb-[20px]">Capital: <span class="font-[400]">{{country_detils.capital !== undefined? country_detils.capital[0] : 'Not Found Capital'}}</span></p>
+                        <p class="text-[1.08em] md:text-[1.05em] font-[700] mb-[10px] md:mb-[20px]">{{country_detils.name.nativeName !== undefined? 'Native' : 'Official'}} Name: <span class="font-[400]">{{country_detils.name.nativeName !== undefined? Object.values(country_detils.name.nativeName)[0].common : country_detils.name.official}}</span></p>
+                        <p class="text-[1.08em] md:text-[1.05em] font-[700] mb-[10px] md:mb-[20px]">population: <span class="font-[400]">{{country_detils.population.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1.')}}</span></p>
+                        <p class="text-[1.08em] md:text-[1.05em] font-[700] mb-[10px] md:mb-[20px]">Region: <span class="font-[400]">{{country_detils.region}}</span></p>
+                        <p class="text-[1.08em] md:text-[1.05em] font-[700] mb-[10px] md:mb-[20px]">Sub Region: <span class="font-[400]">{{country_detils.subregion}}</span></p>                        
+                        <p class="text-[1.08em] md:text-[1.05em] font-[700] mb-[10px] md:mb-[20px]">Capital: <span class="font-[400]">{{country_detils.capital !== undefined? country_detils.capital[0] : 'Not Found Capital'}}</span></p>
                     </div>
                     <div class="w-full dark:text-white">
-                        <p class="text-[1.2em] md:text-[1.05em] font-[700] mb-[10px] md:mb-[20px]">Top Level Domain: <span class="font-[400]">{{Object.values(country_detils.tld)[0]}}</span></p>
-                        <p class="text-[1.2em] md:text-[1.05em] font-[700] mb-[10px] md:mb-[20px]">Currencies: <span class="font-[400]">{{country_detils.currencies !== undefined? Object.values(country_detils.currencies)[0].name : '/'}}</span></p>
-                        <p class="text-[1.2em] md:text-[1.05em] font-[700] mb-[10px] md:mb-[20px]">Languages: <span class="font-[400]">{{country_detils.languages !== undefined? Object.values(country_detils.languages)[0] : '/'}}</span></p>
+                        <p class="text-[1.08em] md:text-[1.05em] font-[700] mb-[10px] md:mb-[20px]">Top Level Domain: <span class="font-[400]">{{Object.values(country_detils.tld)[0]}}</span></p>
+                        <p class="text-[1.08em] md:text-[1.05em] font-[700] mb-[10px] md:mb-[20px]">Currencies: <span class="font-[400]">{{country_detils.currencies !== undefined? Object.values(country_detils.currencies)[0].name : '/'}}</span></p>
+                        <p class="text-[1.08em] md:text-[1.05em] font-[700] mb-[10px] md:mb-[20px]">Languages: <span class="font-[400]">{{country_detils.languages !== undefined? Object.values(country_detils.languages)[0] : '/'}}</span></p>
                     </div>
                </div>
                <div class="flex flex-col w-full">

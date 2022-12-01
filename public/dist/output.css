@@ -862,6 +862,10 @@ video {
   font-size: 1.15em;
 }
 
+.text-\[1\.1em\] {
+  font-size: 1.1em;
+}
+
 .font-\[600\] {
   font-weight: 600;
 }
@@ -912,6 +916,10 @@ video {
 .text-\[\#48a8fb\] {
   --tw-text-opacity: 1;
   color: rgb(72 168 251 / var(--tw-text-opacity));
+}
+
+.text-\[1\.em\] {
+  color: 1.em;
 }
 
 .shadow-\[0px_4px_5px_1px_\#0000001a\] {
